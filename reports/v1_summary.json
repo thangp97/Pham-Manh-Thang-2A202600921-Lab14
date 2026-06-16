@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "version": "Agent_V1_Base",
+    "total": 56,
+    "elapsed_sec": 80.0,
+    "timestamp": "2026-06-16 17:58:54"
+  },
+  "metrics": {
+    "avg_score": 4.071428571428571,
+    "pass_rate": 0.8571428571428571,
+    "hit_rate": 0.9583333333333334,
+    "mrr": 0.9166666666666666,
+    "agreement_rate": 0.8214285714285714,
+    "cohen_kappa": 0.658321060382916,
+    "total_tokens": 76057,
+    "total_cost_usd": 0.132698,
+    "avg_latency": 2.336
+  }
+}

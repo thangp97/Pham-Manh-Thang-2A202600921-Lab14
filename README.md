@@ -60,13 +60,16 @@ Báo cáo 5 Whys phải chỉ ra được lỗi nằm ở đâu: Ingestion pipel
 # 1. Cài đặt dependencies
 pip install -r requirements.txt
 
-# 2. Tạo Golden Dataset (chạy trước khi benchmark)
+# 2. Tạo Corpus (Knowledge Base) — chạy trước khi sinh dataset
+python data/build_corpus.py
+
+# 3. Tạo Golden Dataset (chạy sau khi đã có corpus)
 python data/synthetic_gen.py
 
-# 3. Chạy Benchmark & tạo reports
+# 4. Chạy Benchmark & tạo reports
 python main.py
 
-# 4. Kiểm tra định dạng trước khi nộp
+# 5. Kiểm tra định dạng trước khi nộp
 python check_lab.py
 ```
 
